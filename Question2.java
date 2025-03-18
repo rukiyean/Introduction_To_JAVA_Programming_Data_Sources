@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Question2 {
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		//8.2 (Sum the major diagonal in a matrix)
+	Scanner input = new Scanner(System.in);
+	//8.2 (Sum the major diagonal in a matrix)
         System.out.println("Enter a 4-by-4 matrix row by row:");
         
         double[][] list = new double[4][4];
