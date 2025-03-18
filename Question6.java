@@ -13,25 +13,25 @@ public class Question6 {
 	
 	System.out.println("Enter matrix 1:");
 	for (int i = 0; i < 3; i++) {
-	for (int j = 0; j < 3; j++) {
-	    a[i][j] = input.nextDouble();
-	}
+		for (int j = 0; j < 3; j++) {
+		    a[i][j] = input.nextDouble();
+		}
 	}
 	System.out.println("Enter matrix 2:");
 	for (int i = 0; i < 3; i++) {
-	for (int j = 0; j <3; j++) {
-	    b[i][j] = input.nextDouble();
-	}
+		for (int j = 0; j <3; j++) {
+		    b[i][j] = input.nextDouble();
+		}
 	}
 	
 	
 	
 	System.out.println("\nMatrix 1:");
 	for (int i = 0; i < 3; i++) {
-	for (int j = 0; j <3; j++) {
-	    System.out.printf("%6.1f ", a[i][j]);
-	}
-	System.out.println();
+		for (int j = 0; j <3; j++) {
+		    System.out.printf("%6.1f ", a[i][j]);
+		}
+		System.out.println();
 	}
 	
 	System.out.println("\nMatrix 2:");
